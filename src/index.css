@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: 'airbnb';
+    src: url(../public/AirbnbCerealVF_W_Wght.9c00198218646e3b3f345aa4bc3fda51.woff2);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet{
+    background-color: gray;
+    opacity: 1;
+}
+

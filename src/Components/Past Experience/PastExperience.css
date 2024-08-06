@@ -1,0 +1,20 @@
+.custom-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+  
+.swiper-pagination-bullet {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
